@@ -29,6 +29,7 @@ public class LoginEndpointTest {
     private static final String SERVER_URL = "http://localhost:8080/devops_starter_war_exploded/api";
 
     static final URI BASE_URI = UriBuilder.fromUri(SERVER_URL).port(SERVER_PORT).build();
+
     private static HttpServer httpServer;
     private static EntityManagerFactory emf;
     
